@@ -1,0 +1,30 @@
+<Form
+      Name="HELWRLD"
+      TableName="HELWRLDTable"
+      PrimaryKeyName="ID"
+      Header="Hello World"
+      ModuleID="HELWRLD"
+      ParentModuleID="ENTPRSE">
+  <Section Attributes="display:none" Name="Section000" Caption="">
+    <Control Name="ID" Caption="ID" DBType="Int Identity(1,1)" PrimaryKey="true" Type="Hidden" Value="{_REQUEST:InstanceID}" />
+    <Control Name="PID" Caption="PID" DBType="int" FilterKey="true" Type="Hidden" Value="{_REQUEST:PID}" />
+    <Control Name="ParentID" Caption="ParentID" DBType="int" FilterKey="true" Type="Hidden" Value="{_REQUEST:ParentID}" />
+    <Control Name="AUR_ModifiedBy" Caption="ModifiedBy" DBType="nvarchar(2000)" Type="Hidden" Value="{CURRENTUSERNAME}" ReEvaluate="true" />
+    <Control Name="AUR_ModifiedOn" Caption="ModifiedOn" DBType="datetime" Type="Hidden" Value="{CURRENTDATETIME}" ReEvaluate="true" />
+    <Control Name="AutomationGuid" Caption="AutomationGuid" DBType="nvarchar(100)" Type="TextBox" MaxLength="100" />
+  </Section>
+
+  <Section Name="Section03">
+    <HTMLSection Name="HTMLSection03">
+      <Root>
+        <![CDATA[<div style="width:1000px;"><div style="font-size:100pt;left:300px;">Hello World!</div></div>]]>
+      </Root>
+    </HTMLSection>
+  </Section>
+
+  <Section Name="Section005" Caption="">
+    <Control Name="TextBox01" Caption="Name" DBType="nvarchar(100)" Type="TextBox" MaxLength="15" />
+  </Section>
+
+  <ListColumns Columns="TextBox01" Type="Visible" />
+</Form>

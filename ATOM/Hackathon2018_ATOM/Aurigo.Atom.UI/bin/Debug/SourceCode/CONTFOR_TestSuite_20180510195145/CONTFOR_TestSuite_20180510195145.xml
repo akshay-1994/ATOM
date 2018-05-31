@@ -1,0 +1,3 @@
+﻿<TestRunConfig Name="CONTFOR_TestSuite.MasterRunner_AutoGenTests" AssemblyName="CONTFOR_TestSuite_20180510195145"><Config Run="1-2" RunUser="true" /><Tests><Test Id="1" Method="POSITIVE_1" /><Test Id="2" Method="NEGATIVE_1" /></Tests><TestDescriptions><TestDescription Id="1"><![CDATA[
+]]></TestDescription><TestDescription Id="2"><![CDATA[TestCase for testing data tampering in form TextBox (Created By). Server side validation implemented!
+]]></TestDescription></TestDescriptions></TestRunConfig>

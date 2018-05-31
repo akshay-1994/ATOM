@@ -1,0 +1,125 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurigo.Atom.UI", "Aurigo.Atom.UI\Aurigo.Atom.UI.csproj", "{B5E02692-5A9F-4EA8-9071-1C1D5D618EDF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE16F41A-9413-40CC-A8C8-CF69573FF9CC} = {EE16F41A-9413-40CC-A8C8-CF69573FF9CC}
+		{83B51141-A47B-420A-8B87-67397995B2CC} = {83B51141-A47B-420A-8B87-67397995B2CC}
+		{BCB096A7-27AF-4316-BD94-25D7083F5ECD} = {BCB096A7-27AF-4316-BD94-25D7083F5ECD}
+		{37D8BEE5-5E37-40AA-ABB3-D3EC15BB1522} = {37D8BEE5-5E37-40AA-ABB3-D3EC15BB1522}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurigo.Atom.Generator.Core", "Aurigo.Atom.Generator.Core\Aurigo.Atom.Generator.Core.csproj", "{BCB096A7-27AF-4316-BD94-25D7083F5ECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurigo.Atom.Common", "Aurigo.Atom.Common\Aurigo.Atom.Common.csproj", "{37D8BEE5-5E37-40AA-ABB3-D3EC15BB1522}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{1CA7F3FA-7D0E-4909-A2A9-C0A219588B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurigo.Atom.Generator.Core.UnitTests", "Aurigo.Atom.Generator.Core.UnitTests\Aurigo.Atom.Generator.Core.UnitTests.csproj", "{6DCBB27F-3FE1-48A6-BA88-6A9D3B76C155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurigo.Atom.Reactor", "Aurigo.Atom.Reactor\Aurigo.Atom.Reactor.csproj", "{EE16F41A-9413-40CC-A8C8-CF69573FF9CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AurigoTest.Toolkit", "AurigoTest\AurigoTest.Toolkit\AurigoTest.Toolkit.csproj", "{83B51141-A47B-420A-8B87-67397995B2CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleTestSuite", "SampleTestSuite", "{B7978E9E-B3D8-4E9D-966F-AB4FE4AF68BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleXYZ_TestSuite", "AurigoTest\ModuleXYZ_TestSuite\ModuleXYZ_TestSuite.csproj", "{29042FF8-DFB5-4845-9CEC-31E7714D6B88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestProjects", "TestProjects", "{ED19E27B-2274-4495-B3DC-9D380625D461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenTesting", "CodeGenTesting\CodeGenTesting.csproj", "{35675E1A-076C-425A-85E3-290561915F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoInConsole", "AurigoTest\DemoInConsole\DemoInConsole.csproj", "{C7187FA1-CE29-4098-AFB7-7F6C7D27102E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5E02692-5A9F-4EA8-9071-1C1D5D618EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E02692-5A9F-4EA8-9071-1C1D5D618EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E02692-5A9F-4EA8-9071-1C1D5D618EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E02692-5A9F-4EA8-9071-1C1D5D618EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB096A7-27AF-4316-BD94-25D7083F5ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB096A7-27AF-4316-BD94-25D7083F5ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB096A7-27AF-4316-BD94-25D7083F5ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB096A7-27AF-4316-BD94-25D7083F5ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D8BEE5-5E37-40AA-ABB3-D3EC15BB1522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D8BEE5-5E37-40AA-ABB3-D3EC15BB1522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D8BEE5-5E37-40AA-ABB3-D3EC15BB1522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D8BEE5-5E37-40AA-ABB3-D3EC15BB1522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DCBB27F-3FE1-48A6-BA88-6A9D3B76C155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCBB27F-3FE1-48A6-BA88-6A9D3B76C155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCBB27F-3FE1-48A6-BA88-6A9D3B76C155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCBB27F-3FE1-48A6-BA88-6A9D3B76C155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE16F41A-9413-40CC-A8C8-CF69573FF9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE16F41A-9413-40CC-A8C8-CF69573FF9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE16F41A-9413-40CC-A8C8-CF69573FF9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE16F41A-9413-40CC-A8C8-CF69573FF9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B51141-A47B-420A-8B87-67397995B2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B51141-A47B-420A-8B87-67397995B2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B51141-A47B-420A-8B87-67397995B2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B51141-A47B-420A-8B87-67397995B2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29042FF8-DFB5-4845-9CEC-31E7714D6B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29042FF8-DFB5-4845-9CEC-31E7714D6B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29042FF8-DFB5-4845-9CEC-31E7714D6B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29042FF8-DFB5-4845-9CEC-31E7714D6B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35675E1A-076C-425A-85E3-290561915F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35675E1A-076C-425A-85E3-290561915F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35675E1A-076C-425A-85E3-290561915F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35675E1A-076C-425A-85E3-290561915F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7187FA1-CE29-4098-AFB7-7F6C7D27102E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7187FA1-CE29-4098-AFB7-7F6C7D27102E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7187FA1-CE29-4098-AFB7-7F6C7D27102E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7187FA1-CE29-4098-AFB7-7F6C7D27102E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DCBB27F-3FE1-48A6-BA88-6A9D3B76C155} = {1CA7F3FA-7D0E-4909-A2A9-C0A219588B43}
+		{29042FF8-DFB5-4845-9CEC-31E7714D6B88} = {B7978E9E-B3D8-4E9D-966F-AB4FE4AF68BC}
+		{35675E1A-076C-425A-85E3-290561915F7F} = {ED19E27B-2274-4495-B3DC-9D380625D461}
+		{C7187FA1-CE29-4098-AFB7-7F6C7D27102E} = {ED19E27B-2274-4495-B3DC-9D380625D461}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.aurigo.com/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Aurigo.Atom.Common\\Aurigo.Atom.Common.csproj
+		SccProjectName1 = Aurigo.Atom.Common
+		SccLocalPath1 = Aurigo.Atom.Common
+		SccProjectUniqueName2 = Aurigo.Atom.Generator.Core\\Aurigo.Atom.Generator.Core.csproj
+		SccProjectName2 = Aurigo.Atom.Generator.Core
+		SccLocalPath2 = Aurigo.Atom.Generator.Core
+		SccProjectUniqueName3 = Aurigo.Atom.UI\\Aurigo.Atom.UI.csproj
+		SccProjectName3 = Aurigo.Atom.UI
+		SccLocalPath3 = Aurigo.Atom.UI
+		SccProjectUniqueName4 = Aurigo.Atom.Generator.Core.UnitTests\\Aurigo.Atom.Generator.Core.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName4 = Aurigo.Atom.sln
+		SccProjectName4 = Aurigo.Atom.Generator.Core.UnitTests
+		SccLocalPath4 = Aurigo.Atom.Generator.Core.UnitTests
+		SccProjectUniqueName5 = Aurigo.Atom.Reactor\\Aurigo.Atom.Reactor.csproj
+		SccProjectName5 = Aurigo.Atom.Reactor
+		SccLocalPath5 = Aurigo.Atom.Reactor
+		SccProjectUniqueName6 = AurigoTest\\AurigoTest.Toolkit\\AurigoTest.Toolkit.csproj
+		SccProjectName6 = AurigoTest/AurigoTest.Toolkit
+		SccLocalPath6 = AurigoTest\\AurigoTest.Toolkit
+		SccProjectUniqueName7 = AurigoTest\\ModuleXYZ_TestSuite\\ModuleXYZ_TestSuite.csproj
+		SccProjectTopLevelParentUniqueName7 = Aurigo.Atom.sln
+		SccProjectName7 = AurigoTest/ModuleXYZ_TestSuite
+		SccLocalPath7 = AurigoTest\\ModuleXYZ_TestSuite
+		SccProjectUniqueName8 = CodeGenTesting\\CodeGenTesting.csproj
+		SccProjectTopLevelParentUniqueName8 = Aurigo.Atom.sln
+		SccProjectName8 = CodeGenTesting
+		SccLocalPath8 = CodeGenTesting
+		SccProjectUniqueName9 = AurigoTest\\DemoInConsole\\DemoInConsole.csproj
+		SccProjectTopLevelParentUniqueName9 = Aurigo.Atom.sln
+		SccProjectName9 = AurigoTest/DemoInConsole
+		SccLocalPath9 = AurigoTest\\DemoInConsole
+	EndGlobalSection
+EndGlobal

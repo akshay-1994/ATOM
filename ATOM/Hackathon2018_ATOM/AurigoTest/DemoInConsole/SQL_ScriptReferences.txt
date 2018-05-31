@@ -1,0 +1,30 @@
+﻿--------------------------------------------------------------------------------------------------------------------
+USE [master]
+GO
+CREATE LOGIN [tester] WITH PASSWORD=N'tester', DEFAULT_DATABASE=[master], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
+GO
+--------------------------------------------------------------------------------------------------------------------
+USE [UTCleanWithoutPlanning]
+GO
+CREATE USER [tester] FOR LOGIN [tester]
+ALTER ROLE [db_datareader] ADD MEMBER [tester]
+GO
+----------------------------------------------------------
+USE [UTCleanWithPlanning]
+GO
+CREATE USER [tester] FOR LOGIN [tester]
+ALTER ROLE [db_datareader] ADD MEMBER [tester]
+GO
+----------------------------------------------------------
+USE [UTQAWithoutPlanning]
+GO
+CREATE USER [tester] FOR LOGIN [tester]
+ALTER ROLE [db_datareader] ADD MEMBER [tester]
+GO
+----------------------------------------------------------
+USE [UTQAWithPlanning]
+GO
+CREATE USER [tester] FOR LOGIN [tester]
+ALTER ROLE [db_datareader] ADD MEMBER [tester]
+GO
+----------------------------------------------------------

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestRunConfig>
+  <Config Run="1-3,5,7-9" NoRun="6" RunUser="false"/>
+  <Tests>
+    <Test Id="1" Method="Senario_00001"/>
+    <Test Id="2" Method="Senario_00002"/>
+    <Test Id="3" Method="Senario_00003"/>
+    <Test Id="4" Method="Senario_00004"/>
+    <Test Id="5" Method="Senario_00005"/>
+    <Test Id="6" Method="Senario_00006"/>
+    <Test Id="7" Method="Senario_00007"/>
+    <Test Id="8" Method="Senario_00008"/>
+  </Tests>
+</TestRunConfig>

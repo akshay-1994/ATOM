@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Form Name="CONTFOR" Width="100%" TableName="CONTFORMContractorInformation" PrimaryKeyName="ID" Header="Contractor Information" ModuleID="CONTFOR" ParentModuleID="ENTPRSE">
+  <Section Attributes="display:none" Name="Section000" Caption="">
+    <Control Name="ID" Caption="ID" DBType="Int Identity(1,1)" PrimaryKey="true" Type="Hidden" Value="{_REQUEST:InstanceID}" />
+    <Control Name="PID" Caption="PID" DBType="int" FilterKey="true" Type="Hidden" Value="{_REQUEST:PID}" />
+    <Control Name="ParentID" Caption="ParentID" DBType="int" FilterKey="true" Type="Hidden" Value="{_REQUEST:ParentID}" />
+    <Control Name="AUR_ModifiedBy" Caption="ModifiedBy" DBType="nvarchar(2000)" Type="Hidden" Value="{CURRENTUSERNAME}" ReEvaluate="true" />
+    <Control Name="AUR_ModifiedOn" Caption="ModifiedOn" DBType="datetime" Type="Hidden" Value="{CURRENTDATETIME}" ReEvaluate="true" />
+    <Control Name="AutomationGuid" Caption="AutomationGuid" DBType="nvarchar(100)" Type="TextBox" MaxLength="100" />
+  </Section>
+  <Section Name="Section005" Caption="Contractor Information">
+    <Control Name="ContractorName" Caption="Contractor Name" DBType="nvarchar(max)" ReportWidth="3.75" Type="TextBox" />
+    <Control Name="CreatedBy" Caption="Created By" DBType="nvarchar(max)" ReadOnly="true" ReportWidth="3.75" Type="TextBox" Value="{CURRENTUSERNAME}" />
+  </Section>
+  <ListColumns Columns="ContractorName,CreatedBy" Type="Visible" />
+  <QRGenerator />
+  <ReferenceModuleColumns />
+  <DependantTables />
+</Form>

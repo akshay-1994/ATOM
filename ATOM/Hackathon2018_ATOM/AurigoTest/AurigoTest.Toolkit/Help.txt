@@ -1,0 +1,26 @@
+﻿http://stackoverflow.com/questions/6229769/execute-javascript-using-selenium-webdriver-in-c-sharp
+
+IWebDriver driver; // assume assigned elsewhere
+IJavaScriptExecutor js = driver as IJavaScriptExecutor;
+string title = (string)js.ExecuteScript("return document.title");
+
+
+
+http://www.vcskicks.com/selenium-jquery.php
+
+
+TODO:
+http://automationrhapsody.com/efficient-waiting-for-ajax-call-data-loading-with-selenium-webdriver/
+
+
+https://libraries.io/search?keywords=Selenium&languages=C%23
+
+
+for combobox
+we will have 2 properties injected eg Status
+
+Status 
+Status_Text
+Status_Value
+
+Status and Status_Text will be same

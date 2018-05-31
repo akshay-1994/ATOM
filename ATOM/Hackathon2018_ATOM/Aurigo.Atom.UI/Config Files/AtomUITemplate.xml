@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<AtomUITemplates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Template TemplateId="1" TemplateName="New Template 1">
+    <ConnectionString>Server=10.20.16.243;uid=sa;password=Aurigo@123;Database=MWHackathon;Persist Security Info=True;Connection Timeout=2500;Max Pool Size = 500;MultipleActiveResultSets=true</ConnectionString>
+    <MasterworksUrl>http://mwhack.dev.aurigoblr.com</MasterworksUrl>
+    <UserName>rimshi</UserName>
+    <Password>aurigo</Password>
+    <Module Id="Sample5" Name="">
+      <IncludeNegativeTestCase>true</IncludeNegativeTestCase>
+      <IncludeSecurityTestCase>true</IncludeSecurityTestCase>
+      <IncludeEditModeValidation>true</IncludeEditModeValidation>
+      <IncludeViewModeValidation>true</IncludeViewModeValidation>
+      <IncludeDBValidation>false</IncludeDBValidation>
+      <Control Type="Hidden" Name="ID" />
+      <Control Type="TextBox" Name="MaxLen10DBLimit5">
+        <Attribute>MaxLength</Attribute>
+        <Attribute>MaxValue</Attribute>
+      </Control>
+      <Control Type="TextBox" Name="MaxLen5DBLimit10" />
+      <Control Type="Integer" Name="min1Max99" />
+      <Control Type="Hidden" Name="ModifiedBy" />
+      <Control Type="Hidden" Name="ModifiedOn" />
+      <Control Type="Hidden" Name="ParentID" />
+      <Control Type="Hidden" Name="PID" />
+      <Control Type="DropDownList" Name="UserName" />
+      <Control Type="TextBox" Name="MaxLen10DBLimit5">
+        <Attribute>MaxLength</Attribute>
+        <Attribute>MaxValue</Attribute>
+      </Control>
+      <AutomationGUIDFieldName>ID</AutomationGUIDFieldName>
+      <GenerateDistinctDLLs>false</GenerateDistinctDLLs>
+      <GenerateDistinctSuiteXMLConfig>false</GenerateDistinctSuiteXMLConfig>
+      <AutoGenerateSolutionName>false</AutoGenerateSolutionName>
+    </Module>
+    <Module Id="EMPFORM" Name="">
+      <IncludeNegativeTestCase>true</IncludeNegativeTestCase>
+      <IncludeSecurityTestCase>true</IncludeSecurityTestCase>
+      <IncludeEditModeValidation>true</IncludeEditModeValidation>
+      <IncludeViewModeValidation>true</IncludeViewModeValidation>
+      <IncludeDBValidation>true</IncludeDBValidation>
+      <Control Type="TextBox" Name="AutomationGuid" />
+      <Control Type="Integer" Name="Employee Age:">
+        <Attribute>MaxValue</Attribute>
+        <Attribute>MinValue</Attribute>
+      </Control>
+      <Control Type="DropDownList" Name="Employee Department:" />
+      <Control Type="Numeric" Name="Employee Grade:">
+        <Attribute>MaxValue</Attribute>
+        <Attribute>MinValue</Attribute>
+      </Control>
+      <Control Type="TextBox" Name="Employee Name:">
+        <Attribute>MaxLength</Attribute>
+      </Control>
+      <Control Type="Hidden" Name="ID" />
+      <Control Type="Hidden" Name="ModifiedBy" />
+      <Control Type="Hidden" Name="ModifiedOn" />
+      <Control Type="Hidden" Name="ParentID" />
+      <Control Type="Hidden" Name="PID" />
+      <Control Type="Integer" Name="Employee Age:">
+        <Attribute>MaxValue</Attribute>
+        <Attribute>MinValue</Attribute>
+      </Control>
+      <Control Type="Numeric" Name="Employee Grade:">
+        <Attribute>MaxValue</Attribute>
+        <Attribute>MinValue</Attribute>
+      </Control>
+      <Control Type="TextBox" Name="Employee Name:">
+        <Attribute>MaxLength</Attribute>
+      </Control>
+      <Control Type="Integer" Name="Employee Age:">
+        <Attribute>MaxValue</Attribute>
+        <Attribute>MinValue</Attribute>
+      </Control>
+      <Control Type="Numeric" Name="Employee Grade:">
+        <Attribute>MaxValue</Attribute>
+        <Attribute>MinValue</Attribute>
+      </Control>
+      <Control Type="TextBox" Name="Employee Name:">
+        <Attribute>MaxLength</Attribute>
+      </Control>
+      <AutomationGUIDFieldName>AutomationGuid</AutomationGUIDFieldName>
+      <GenerateDistinctDLLs>true</GenerateDistinctDLLs>
+      <GenerateDistinctSuiteXMLConfig>true</GenerateDistinctSuiteXMLConfig>
+      <AutoGenerateSolutionName>true</AutoGenerateSolutionName>
+      <SolutionName />
+    </Module>
+    <Module Id="" Name="">
+      <IncludeNegativeTestCase>false</IncludeNegativeTestCase>
+      <IncludeSecurityTestCase>false</IncludeSecurityTestCase>
+      <IncludeEditModeValidation>false</IncludeEditModeValidation>
+      <IncludeViewModeValidation>false</IncludeViewModeValidation>
+      <IncludeDBValidation>false</IncludeDBValidation>
+      <GenerateDistinctDLLs>false</GenerateDistinctDLLs>
+      <GenerateDistinctSuiteXMLConfig>false</GenerateDistinctSuiteXMLConfig>
+      <AutoGenerateSolutionName>false</AutoGenerateSolutionName>
+      <SolutionName />
+    </Module>
+    <Module Id="CONTFOR" Name="">
+      <IncludeNegativeTestCase>true</IncludeNegativeTestCase>
+      <IncludeSecurityTestCase>true</IncludeSecurityTestCase>
+      <IncludeEditModeValidation>true</IncludeEditModeValidation>
+      <IncludeViewModeValidation>true</IncludeViewModeValidation>
+      <IncludeDBValidation>true</IncludeDBValidation>
+      <Control Type="TextBox" Name="AutomationGuid" />
+      <Control Type="TextBox" Name="Contractor Name" />
+      <Control Type="TextBox" Name="Created By">
+        <Attribute>Value</Attribute>
+      </Control>
+      <Control Type="Hidden" Name="ID" />
+      <Control Type="Hidden" Name="ModifiedBy" />
+      <Control Type="Hidden" Name="ModifiedOn" />
+      <Control Type="Hidden" Name="ParentID" />
+      <Control Type="Hidden" Name="PID" />
+      <AutomationGUIDFieldName>AutomationGuid</AutomationGUIDFieldName>
+      <GenerateDistinctDLLs>true</GenerateDistinctDLLs>
+      <GenerateDistinctSuiteXMLConfig>true</GenerateDistinctSuiteXMLConfig>
+      <AutoGenerateSolutionName>true</AutoGenerateSolutionName>
+    </Module>
+    <DeploymentTargetPath>D:\TFS\Hackathon2018_ATOM\Aurigo.Atom.Reactor\bin\Debug\TestSuites</DeploymentTargetPath>
+    <SolutionTargetPath>D:\_GeneratedTest</SolutionTargetPath>
+    <AtomReactorExecutableFilePath>C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\Aurigo.Atom.Reactor\bin\Debug\Aurigo.Atom.Reactor.exe</AtomReactorExecutableFilePath>
+    <CompileAndGenerateLibrary>true</CompileAndGenerateLibrary>
+    <IsAutoDeploy>true</IsAutoDeploy>
+  </Template>
+</AtomUITemplates>

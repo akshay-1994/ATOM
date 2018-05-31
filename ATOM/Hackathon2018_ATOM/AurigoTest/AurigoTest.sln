@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AurigoTest.Toolkit", "AurigoTest.Toolkit\AurigoTest.Toolkit.csproj", "{83B51141-A47B-420A-8B87-67397995B2CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTestProjects", "UnitTestProjects", "{DCBB81FD-8B72-4422-8F53-356352268C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AurigoTest.UT.GenericFormControls", "AurigoTest.UT.GenericFormControls\AurigoTest.UT.GenericFormControls.csproj", "{51BA95C2-204F-4B98-B7DE-3B2839F5ECA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoInConsole", "DemoInConsole\DemoInConsole.csproj", "{C7187FA1-CE29-4098-AFB7-7F6C7D27102E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleXYZ_TestSuite", "ModuleXYZ_TestSuite\ModuleXYZ_TestSuite.csproj", "{29042FF8-DFB5-4845-9CEC-31E7714D6B88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83B51141-A47B-420A-8B87-67397995B2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B51141-A47B-420A-8B87-67397995B2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B51141-A47B-420A-8B87-67397995B2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B51141-A47B-420A-8B87-67397995B2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BA95C2-204F-4B98-B7DE-3B2839F5ECA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BA95C2-204F-4B98-B7DE-3B2839F5ECA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BA95C2-204F-4B98-B7DE-3B2839F5ECA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BA95C2-204F-4B98-B7DE-3B2839F5ECA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7187FA1-CE29-4098-AFB7-7F6C7D27102E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7187FA1-CE29-4098-AFB7-7F6C7D27102E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7187FA1-CE29-4098-AFB7-7F6C7D27102E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7187FA1-CE29-4098-AFB7-7F6C7D27102E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29042FF8-DFB5-4845-9CEC-31E7714D6B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29042FF8-DFB5-4845-9CEC-31E7714D6B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29042FF8-DFB5-4845-9CEC-31E7714D6B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29042FF8-DFB5-4845-9CEC-31E7714D6B88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51BA95C2-204F-4B98-B7DE-3B2839F5ECA1} = {DCBB81FD-8B72-4422-8F53-356352268C96}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.aurigo.com/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AurigoTest.Toolkit\\AurigoTest.Toolkit.csproj
+		SccProjectName1 = AurigoTest.Toolkit
+		SccLocalPath1 = AurigoTest.Toolkit
+		SccProjectUniqueName2 = AurigoTest.UT.GenericFormControls\\AurigoTest.UT.GenericFormControls.csproj
+		SccProjectTopLevelParentUniqueName2 = AurigoTest.sln
+		SccProjectName2 = AurigoTest.UT.GenericFormControls
+		SccLocalPath2 = AurigoTest.UT.GenericFormControls
+		SccProjectUniqueName3 = DemoInConsole\\DemoInConsole.csproj
+		SccProjectName3 = DemoInConsole
+		SccLocalPath3 = DemoInConsole
+		SccProjectUniqueName4 = ModuleXYZ_TestSuite\\ModuleXYZ_TestSuite.csproj
+		SccProjectName4 = ModuleXYZ_TestSuite
+		SccLocalPath4 = ModuleXYZ_TestSuite
+	EndGlobalSection
+EndGlobal

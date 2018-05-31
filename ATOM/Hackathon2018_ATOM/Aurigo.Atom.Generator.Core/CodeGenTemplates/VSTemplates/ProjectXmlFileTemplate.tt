@@ -1,0 +1,98 @@
+﻿<#@ template language="C#" #>
+<#@ parameter 
+	name="GeneratorProjectXmlFile" 
+	type="Aurigo.Atom.Generator.Core.CodeGenObjects.VSTemplates.GeneratorProjectXmlFile" #>
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>
+      {<#= GeneratorProjectXmlFile.ProjectGuid #>}
+      </ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace><#= GeneratorProjectXmlFile.RootNamespace #></RootNamespace>
+    <AssemblyName><#= GeneratorProjectXmlFile.AssemblyName #></AssemblyName>
+    <TargetFrameworkVersion><#= GeneratorProjectXmlFile.TargetFrameworkVersion #></TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+   <ItemGroup>
+    <Reference Include="System" />
+     <Reference Include="System.Core" />
+     <Reference Include="System.Configuration" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.11.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath><#= GeneratorProjectXmlFile.SharedLibraryPath #>\WebDriver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.11.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath><#= GeneratorProjectXmlFile.SharedLibraryPath #>\WebDriver.Support.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+	<Reference Include="AurigoTest.Toolkit">
+      <HintPath><#= GeneratorProjectXmlFile.SharedLibraryPath #>\AurigoTest.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath><#= GeneratorProjectXmlFile.SharedLibraryPath #>\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RelevantCodes.ExtentReports">
+      <HintPath><#= GeneratorProjectXmlFile.SharedLibraryPath #>\RelevantCodes.ExtentReports.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+	<Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestScenarioConfig.cs" />
+    <Compile Include="MasterRunner_AutoGenTests.cs" />
+	<Compile Include="MasterRunner_UserTests.cs" />
+	<Compile Include="AutoGenTests\TC._.cs" />
+<# foreach( var item in GeneratorProjectXmlFile.ScenarioFileObjectList) {  #>  
+    <Compile Include="AutoGenTests\TC.<#= item.ScenarioFunctionName #>.cs" />
+<#  }  #>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="<#= GeneratorProjectXmlFile.ModuleXmlName #>">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="<#= GeneratorProjectXmlFile.AssemblyName #>_App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

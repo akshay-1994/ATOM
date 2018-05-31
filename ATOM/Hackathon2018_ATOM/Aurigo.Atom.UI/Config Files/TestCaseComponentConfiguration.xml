@@ -1,0 +1,14 @@
+<TestCaseComponentConfiguration>
+  <Control Type="TextBox" DefaultValueGeneratorName="TextBox_DefaultValue" SecurityTestCaseGeneratorName="TextBox_SecurityTest">
+    <Attribute Name="MaxLength" GeneratorName="TextBox_MaxLength" />
+  </Control>
+  <Control Type="Numeric" DefaultValueGeneratorName="Numeric_DefaultValue">
+    <Attribute Name="MinValue" GeneratorName="Numeric_MinValue" />
+    <Attribute Name="MaxValue" GeneratorName="Numeric_MaxValue" />
+  </Control>
+  <Control Type="Integer" DefaultValueGeneratorName="Integer_DefaultValue">
+    <Attribute Name="MinValue" GeneratorName="Integer_MinValue" />
+    <Attribute Name="MaxValue" GeneratorName="Integer_MaxValue" />
+  </Control>
+  <Control Type="Hidden" DefaultValueGeneratorName="TextBox_DefaultValue" />
+</TestCaseComponentConfiguration>

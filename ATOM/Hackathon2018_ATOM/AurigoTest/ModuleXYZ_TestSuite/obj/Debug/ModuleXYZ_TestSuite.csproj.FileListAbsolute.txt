@@ -1,0 +1,17 @@
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\DriverRepository\chromedriver.exe
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\ModuleXYZ_TestSuite.xml
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\ModuleXYZ_TestSuite.dll
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\ModuleXYZ_TestSuite.pdb
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\AurigoTest.Toolkit.dll
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\WebDriver.dll
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\WebDriver.Support.dll
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\RelevantCodes.ExtentReports.dll
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\AurigoTest.Toolkit.pdb
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\WebDriver.xml
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\WebDriver.Support.xml
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\bin\Debug\Newtonsoft.Json.xml
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\obj\Debug\ModuleXYZ_TestSuite.csprojResolveAssemblyReference.cache
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\obj\Debug\ModuleXYZ_TestSuite.dll
+C:\Users\akshay.katheria\Desktop\ATOM\Hackathon2018_ATOM\AurigoTest\ModuleXYZ_TestSuite\obj\Debug\ModuleXYZ_TestSuite.pdb

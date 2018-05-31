@@ -1,0 +1,24 @@
+<Form
+      Name="EMPFORM"
+      TableName="EMPFORMEmployeeInformation"
+      PrimaryKeyName="ID"
+      Header="Employee Information"
+      ModuleID="EMPFORM"
+      ParentModuleID="ENTPRSE">
+  <Section Attributes="display:none" Name="Section000" Caption="">
+    <Control Name="ID" Caption="ID" DBType="Int Identity(1,1)" PrimaryKey="true" Type="Hidden" Value="{_REQUEST:InstanceID}" />
+    <Control Name="PID" Caption="PID" DBType="int" FilterKey="true" Type="Hidden" Value="{_REQUEST:PID}" />
+    <Control Name="ParentID" Caption="ParentID" DBType="int" FilterKey="true" Type="Hidden" Value="{_REQUEST:ParentID}" />
+    <Control Name="AUR_ModifiedBy" Caption="ModifiedBy" DBType="nvarchar(2000)" Type="Hidden" Value="{CURRENTUSERNAME}" ReEvaluate="true" />
+    <Control Name="AUR_ModifiedOn" Caption="ModifiedOn" DBType="datetime" Type="Hidden" Value="{CURRENTDATETIME}" ReEvaluate="true" />
+    <Control Name="AutomationGuid" Caption="AutomationGuid" DBType="nvarchar(100)" Type="TextBox" MaxLength="100" />
+  </Section>
+  <Section Name="Section005" Caption="Employee Information">
+    <Control Name="EmployeeName" Caption="Employee Name:" DBType="nvarchar(100)" Type="TextBox" MaxLength="100" />
+    <Control Name="EmployeeAge" Caption="Employee Age:" DBType="int" MinValue="21" MaxValue="65" Type="Integer" />
+    <Control Name="EmployeeGrade" Caption="Employee Grade:" DBType="numeric(18,4)"  MinValue="7.5" MaxValue="10" Type="Numeric"/>
+    <Control Name="EmployeeDepartment" Caption="Employee Department:" DBType="int" Type="DropDownList" DataSource="SomeTable" ListItems="-select-:_DBNULL_" />
+  </Section>
+
+  <ListColumns Columns="EmployeeName,EmployeeAge,EmployeeGrade" Type="Visible" />
+</Form>
